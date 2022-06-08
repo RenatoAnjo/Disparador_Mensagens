@@ -12,4 +12,4 @@ Criar um disparador de mensagens para Whatsapp, importar fontes, criar efeitos e
 </ul>
 
 ## Link para o Projeto :
-<a href="#">Disparador de Mensgens</a>
+<a href="#">Disparador de Mensagens</a>

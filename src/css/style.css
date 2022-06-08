@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,400&display=swap');
+
+body {
+  display: flex;
+  flex-wrap: wrap; /* ir quebrando, descendo os itens conforme diminui a pagina*/
+  justify-content: center; /* alinhando os itens na horizontal */
+  background-image: url(../imagens/fundo.webp);
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  scroll-behavior: smooth; 
+}
+
+div {
+  background-color: #daf7c1;
+  width: 420px;
+  margin: 8px;
+  padding: 8px 18px;
+  border-radius: 16px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2); /*  sombra 0.2 é a opacidade */
+  display: flex;
+  justify-content: space-between; /* texto esquerda e img direita */
+  align-items: center; /* alinhar texto e img na vertical */
+}
+
+div:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.5) /* efeito que esta chegando mais perto*/
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
